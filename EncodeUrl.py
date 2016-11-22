@@ -3,19 +3,19 @@ import urllib
 import urllib2
 
 # POST方式
-url = 'http://www.someserver.com/register.cgi'
+url = 'http://www.baidu.com'
 values1 = {
     'name': 'WHY',
     'location': 'SDU',
     'language': 'python',
     'password': 'faizalfu'
 }
-
 data = urllib.urlencode(values1)
 print(data)
-req = urllib2.Request(url, data)
-response = urllib2.urlopen(req)
+req = urllib2.Request(url)
+response = urllib2.urlopen(req, data, 20)
 the_page = response.read()
+print(the_page)
 
 # GET方式
 values2 = {}
