@@ -1,0 +1,8 @@
+# Netscape HTTP Cookie File
+# http://www.netscape.com/newsref/std/cookie_spec.html
+# This is a generated file!  Do not edit.
+
+.baidu.com	TRUE	/	FALSE	3627462568	BIDUPSID	AD46C1F255949C631544785865192A2F
+.baidu.com	TRUE	/	FALSE	3627462568	PSTM	1479978923
+.www.baidu.com	TRUE	/	FALSE	1479978928	__bsi	12604567434956935755_00_36_N_N_47_0301_002F_N_N_N_0
+www.baidu.com	FALSE	/	FALSE	1479979221	BD_NOT_HTTPS	1
